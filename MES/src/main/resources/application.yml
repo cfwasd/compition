@@ -10,5 +10,7 @@ spring:
   mybatis:
     configuration:
       map-underscore-to-camel-case: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
 
 
